@@ -13,7 +13,7 @@ public class Main {
 
          for(int i = 1 ; i <= numInput ;i++){
 
-             System.out.println("Sayıyı giriniz: ");
+             System.out.print(i+". Sayıyı giriniz: ");
              number= userInp.nextInt();
              maxNumber=Math.max(maxNumber,number);
              minNumber=Math.min(minNumber,number);
